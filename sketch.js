@@ -79,12 +79,12 @@ function verificarColisaoBorda(){
   } 
 }
 /*function movimentoRaquete2(){
-  if(keyIsDown(UP_ARROW)){
+  if(keyIsDown(87)){
     if(yRaquete2>0){
     yRaquete2 -= 10;
     }
   }
-  if(keyIsDown(DOWN_ARROW)){
+  if(keyIsDown(83)){
     if(yRaquete2<400-raqueteAltura){
     yRaquete2 += 10;
     }
@@ -92,12 +92,12 @@ function verificarColisaoBorda(){
 }
 */
 function movimentominhaRaquete(){
-  if(keyIsDown(87)){
+  if(keyIsDown(UP_ARROW)){
     if(yRaquete>0){
     yRaquete -= 10;
     }
   }
-  if(keyIsDown(83)){
+  if(keyIsDown(DOWN_ARROW)){
     if(yRaquete<400-raqueteAltura){
     yRaquete += 10;
     }
