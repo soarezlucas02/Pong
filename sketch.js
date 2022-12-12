@@ -4,8 +4,8 @@ let xBolinha=300;
 let yBolinha=200;
 let diametro=20;
 
-let velocidadebX=10;
-let velocidadebY=10;
+let velocidadebX=5;
+let velocidadebY=5;
 
 //variaveis da raquete
 let raqueteComprimento=10;
